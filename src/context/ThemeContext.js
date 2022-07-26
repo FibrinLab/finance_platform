@@ -230,15 +230,15 @@ const ThemeContextProvider = (props) => {
 	};
 
   useEffect(() => {
-	const body = document.querySelector("body");
+    const body = document.querySelector("body");
     body.setAttribute("data-typography", "poppins");
-    body.setAttribute("data-theme-version", "dark");
+    body.setAttribute("data-theme-version", "light");
     body.setAttribute("data-layout", "vertical");
-    body.setAttribute("data-primary", "color_2");
-    body.setAttribute("data-nav-headerbg", "color_14");
-    body.setAttribute("data-headerbg", "color_14");
+    body.setAttribute("data-primary", "color_1");
+    body.setAttribute("data-nav-headerbg", "color_1");
+    body.setAttribute("data-headerbg", "color_1");
     body.setAttribute("data-sidebar-style", "full");
-    body.setAttribute("data-sibebarbg", "color_2");
+    body.setAttribute("data-sibebarbg", "color_1");
     body.setAttribute("data-primary", "color_1");
     body.setAttribute("data-sidebar-position", "fixed");
     body.setAttribute("data-header-position", "fixed");
